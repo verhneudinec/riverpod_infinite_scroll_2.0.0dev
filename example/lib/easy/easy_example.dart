@@ -1,7 +1,7 @@
 import 'package:example/easy/easy_example_provider.dart';
 import 'package:flutter/material.dart';
 import 'package:infinite_scroll_pagination/infinite_scroll_pagination.dart';
-import 'package:riverpod_infinite_scroll/riverpod_infinite_scroll.dart';
+import 'package:riverpod_dev_infinite_scroll/riverpod_dev_infinite_scroll.dart';
 
 class EasyExample extends StatelessWidget {
   const EasyExample({Key? key}) : super(key: key);

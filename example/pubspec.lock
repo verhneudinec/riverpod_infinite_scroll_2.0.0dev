@@ -68,7 +68,7 @@ packages:
       name: flutter_riverpod
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "1.0.3"
+    version: "2.0.0-dev.5"
   flutter_test:
     dependency: "direct dev"
     description: flutter
@@ -122,14 +122,14 @@ packages:
       name: riverpod
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "1.0.3"
-  riverpod_infinite_scroll:
+    version: "2.0.0-dev.5"
+  riverpod_dev_infinite_scroll:
     dependency: "direct main"
     description:
       path: ".."
       relative: true
     source: path
-    version: "1.0.2"
+    version: "2.0.0-dev.5"
   sky_engine:
     dependency: transitive
     description: flutter

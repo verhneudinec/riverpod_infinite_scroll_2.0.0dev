@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:infinite_scroll_pagination/infinite_scroll_pagination.dart';
-import 'package:riverpod_infinite_scroll/src/paged_notifier_mixin.dart';
-import 'package:riverpod_infinite_scroll/src/paged_state.dart';
+import 'package:riverpod_dev_infinite_scroll/src/paged_notifier_mixin.dart';
+import 'package:riverpod_dev_infinite_scroll/src/paged_state.dart';
 
 typedef PagedBuilder<PageKeyType, ItemType> = Widget Function(
     PagingController<PageKeyType, ItemType> controller,

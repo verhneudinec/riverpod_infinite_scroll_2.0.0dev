@@ -1,5 +1,5 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:riverpod_infinite_scroll/riverpod_infinite_scroll.dart';
+import 'package:riverpod_dev_infinite_scroll/riverpod_dev_infinite_scroll.dart';
 
 class Post {
   final int id;
@@ -17,7 +17,7 @@ class EasyExampleNotifier extends PagedNotifier<int, Post> {
                 20,
                 (index) => Post(
                     id: index,
-                    title: "My ${index + ( (limit * page) - limit )} work",
+                    title: "My ${index + ((limit * page) - limit)} work",
                     image: "https://via.placeholder.com/150/92c952"));
           }),
           nextPageKeyBuilder: NextPageKeyBuilderDefault.mysqlPagination,

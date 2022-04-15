@@ -1,5 +1,5 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:riverpod_infinite_scroll/riverpod_infinite_scroll.dart';
+import 'package:riverpod_dev_infinite_scroll/riverpod_dev_infinite_scroll.dart';
 
 class User {
   final String id;
@@ -61,6 +61,7 @@ class CustomExampleNotifier extends StateNotifier<CustomExampleState>
     } catch (e) {
       state = state.copyWith(error: e.toString());
     }
+    return null;
   }
 
   // Super simple example of custom methods of the StateNotifier

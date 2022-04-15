@@ -1,4 +1,4 @@
-library riverpod_infinite_scroll;
+library riverpod_dev_infinite_scroll;
 
 export 'src/river_paged_builder.dart';
 export 'src/paged_state.dart';

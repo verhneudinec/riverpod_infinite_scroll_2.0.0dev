@@ -12,10 +12,10 @@ The **RiverPagedBuilder** asks for a **StateNotifierProvider** where he can retr
 
 This **StateNotifierProvider** must have two things to ensure everything works correctly, it must have a **load method** and it must have a state that has the list of the elements, an error, and a variable that hold the next page that the load function will use.
 
-The **riverpod_infinite_scroll** help us to ensure that the **StateNotifier** we are using respect this constraints with two classes:
+The **riverpod_dev_infinite_scroll** help us to ensure that the **StateNotifier** we are using respect this constraints with two classes:
 
  - **PagedNotifierMixin** - a mixin that ensure the **StateNotifier** will implement the right **load** method
- - **PagedState** - a state that has all the properties that **riverpod_infinite_scroll** need
+ - **PagedState** - a state that has all the properties that **riverpod_dev_infinite_scroll** need
 
 ## Example - Simple version
 

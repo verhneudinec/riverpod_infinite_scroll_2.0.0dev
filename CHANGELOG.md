@@ -9,3 +9,7 @@
 ## 1.0.2
 
 * Addedd pull to refresh functionality
+
+## 2.0.0-dev.5
+
+* Use dev version of riverpod

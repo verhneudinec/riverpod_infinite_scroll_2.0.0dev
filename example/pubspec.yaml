@@ -1,5 +1,5 @@
 name: example
-description: Exmaple project for riverpod_infinite_scroll
+description: Exmaple project for riverpod_dev_infinite_scroll
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 version: 1.0.0+1
 
@@ -8,8 +8,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  riverpod_infinite_scroll:
-    path: ../../riverpod_infinite_scroll
+  riverpod_dev_infinite_scroll:
+    path: ../
 
 dev_dependencies:
   flutter_test:

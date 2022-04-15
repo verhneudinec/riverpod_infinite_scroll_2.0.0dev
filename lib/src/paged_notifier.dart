@@ -1,7 +1,9 @@
+// ignore_for_file: prefer_function_declarations_over_variables
+
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:riverpod_infinite_scroll/src/paged_notifier_mixin.dart';
-import 'package:riverpod_infinite_scroll/src/paged_state.dart';
+import 'package:riverpod_dev_infinite_scroll/src/paged_notifier_mixin.dart';
+import 'package:riverpod_dev_infinite_scroll/src/paged_state.dart';
 
 typedef LoadFunction<PageKeyType, ItemType> = Future<List<ItemType>?> Function(
     PageKeyType page, int limit);
@@ -50,6 +52,7 @@ class PagedNotifier<PageKeyType, ItemType>
         debugPrint(e.toString());
       }
     }
+    return null;
   }
 }
 

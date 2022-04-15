@@ -1,5 +1,5 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:riverpod_infinite_scroll/src/paged_state.dart';
+import 'package:riverpod_dev_infinite_scroll/src/paged_state.dart';
 
 mixin PagedNotifierMixin<PageKeyType, ItemType,
     State extends PagedState<PageKeyType, ItemType>> on StateNotifier<State> {
