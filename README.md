@@ -1,3 +1,7 @@
+# About this fork
+
+This is a fork of the riverpod_infinite_scroll plugin, which uses the latest dev version of riverpod (2.0.0+5).
+
 # Riverpod Infinite Scroll
 
 Hi! This package is a Riverpod implementation of the **infinite_scroll_pagination** plugin.
